@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Drum Machine</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- myScript -->
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container justify-content-center p-5" id="drum-machine">
+        <div class="text-center h2 shadow-sm border border-warning rounded bg-dark text-warning p-sm-5" id="display">Drum Machine</div>
+        <div class="row justify-content-center px-3">
+            <div class="col-md-4 px-5  bg-dark">
+                <div class="drum-pad btn btn-block shadow p-4 mb-4 btn-outline-success p-sm-5 my-5" id="tom">
+                    Q
+                    <audio src="https://bit.ly/2IVAzQE" preload="auto" class="clip" id="Q"></audio>
+                </div>
+            </div>
+            <div class="col-md-4 px-5 bg-dark">
+                <div class="drum-pad btn btn-block shadow p-4 mb-4 btn-outline-success p-sm-5 my-5" id="hiHat">
+                    W
+                    <audio src="https://bit.ly/2LNfzNj" preload="auto" class="clip" id="W"></audio>
+                </div>
+            </div>
+            <div class="col-md-4 px-5 bg-dark">
+                <div class="drum-pad btn btn-block shadow p-4 mb-4 btn-outline-success p-sm-5 my-5" id="oHat">
+                    E
+                    <audio src="https://bit.ly/2KyGSKi" preload="auto" class="clip" id="E"></audio>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center px-3">
+            <div class="col-md-4 px-5 bg-dark">
+                <div class="drum-pad btn btn-block shadow p-4 mb-4 btn-outline-success p-sm-5 my-5" id="rim">
+                    A
+                    <audio src="https://bit.ly/38aGBpb" preload="auto" class="clip" id="A"></audio>
+                </div>
+            </div>
+            <div class="col-md-4 px-5 bg-dark">
+                <div class="drum-pad btn btn-block shadow p-4 mb-4 btn-outline-success p-sm-5 my-5" id="pop">
+                    S
+                    <audio src="https://bit.ly/3asZbf8" preload="auto" class="clip" id="S"></audio>
+                </div>
+            </div>
+            <div class="col-md-4 px-5 bg-dark">
+                <div class="drum-pad btn btn-block shadow p-4 mb-4 btn-outline-success p-sm-5 my-5" id="kick">
+                    D
+                    <audio src="https://bit.ly/3nykeRb" preload="auto" class="clip" id="D"></audio>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center px-3">
+            <div class="col-md-4 px-5 bg-dark">
+                <div class="drum-pad btn btn-block shadow p-4 mb-4 btn-outline-success p-sm-5 my-5" id="cymbal">
+                    Z
+                    <audio src="https://bit.ly/2KAzHRP" preload="auto" class="clip" id="Z"></audio>
+                </div>
+            </div>
+            <div class="col-md-4 px-5 bg-dark">
+                <div class="drum-pad btn btn-block shadow p-4 mb-4 btn-outline-success p-sm-5 my-5" id="snare">
+                    X
+                    <audio src="https://bit.ly/2WtKaBf" preload="auto" class="clip" id="X"></audio>
+                </div>
+            </div>
+            <div class="col-md-4 px-5 bg-dark">
+                <div class="drum-pad btn btn-block shadow p-4 mb-4 btn-outline-success p-sm-5 my-5" id="cowbell">
+                    C
+                    <audio src="https://bit.ly/3gXhcmI" preload="auto" class="clip" id="C"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- freeCodeCamp Test Suite -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
